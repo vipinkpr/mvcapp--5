@@ -14,6 +14,7 @@ namespace mvcapp.Controllers
         // This is because each HTTP request is stateless
         public HomeController()
         {
+
             System.Diagnostics.Trace.TraceInformation("Invoking the controller");
             newdtset = new MemoryDataSet();
         }
